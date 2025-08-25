@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UUID Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>UUID Generator</h1>
+    </header>
+
+    <main>
+      <section>
+        <form id="generator">
+          <div class="field">
+            <label for="count">Count</label>
+            <input type="number" name="count" id="count" value="10" min="0" />
+          </div>
+          <div class="field">
+            <button type="submit">Generate</button>
+          </div>
+        </form>
+      </section>
+      <section>
+        <div class="field">
+          <label for="output">Output</label>
+          <textarea id="output" rows="10"></textarea>
+          <button type="button" id="copy">Copy</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
