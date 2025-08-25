@@ -30,11 +30,13 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-rows: 1fr auto;
-  gap: 50px;
+  gap: 4rem;
 }
 
-section {
-  margin-bottom: 3rem;
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 label {
