@@ -1,11 +1,11 @@
 (async () => {
-  /** @type {HTMLButtonElement} */
+  /** @type {HTMLFormElement?} */
   const generatorForm = document.querySelector("form#generator");
-  /** @type {HTMLInputElement} */
-  const countInput = generatorForm.querySelector("#count");
-  /** @type {HTMLTextAreaElement} */
-  const outputTextarea = document.querySelector("#output");
-  /** @type {HTMLButtonElement} */
+  /** @type {HTMLInputElement?} */
+  const countInput = generatorForm.querySelector("input#count");
+  /** @type {HTMLTextAreaElement?} */
+  const outputTextarea = document.querySelector("textarea#output");
+  /** @type {HTMLButtonElement?} */
   const copyBtn = document.querySelector("button#copy");
 
   if (!generatorForm || !countInput || !outputTextarea || !copyBtn) {
